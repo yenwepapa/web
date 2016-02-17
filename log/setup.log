@@ -1,0 +1,444 @@
+2016-02-16 17:32:45 - Info - CheckPHPVersion
+2016-02-16 17:32:46 - Info - php.ini file(s): '/etc/php5/apache2/php.ini, /etc/php5/apache2/conf.d/10-pdo.ini, /etc/php5/apache2/conf.d/20-mysql.ini, /etc/php5/apache2/conf.d/20-mysqli.ini, /etc/php5/apache2/conf.d/20-pdo_mysql.ini'
+2016-02-16 17:32:46 - Info - Temporary directory for files upload (/tmp) is writable.
+2016-02-16 17:32:46 - Info - upload_max_filesize: 2M
+2016-02-16 17:32:46 - Info - post_max_size: 8M
+2016-02-16 17:32:46 - Info - max_file_uploads: 20
+2016-02-16 17:32:46 - Info - memory_limit is 134217728, ok.
+2016-02-16 17:32:46 - Info - session.save_path is: '/var/lib/php5'.
+2016-02-16 17:32:46 - Warning - Missing optional PHP extension: gd. PDF export of impact/dependency diagrams will be disabled
+2016-02-16 17:32:46 - Warning - Missing optional PHP extension: ldap. LDAP authentication will be disabled.
+2016-02-16 17:32:46 - Warning - Missing optional PHP extension: mcrypt. Strong encryption will not be used.
+2016-02-16 17:32:46 - Ok - The current PHP Version (5.4.45-0+deb7u2) is greater than the minimum version required to run iTop, which is (5.3.0)
+2016-02-16 17:32:46 - Ok - Required PHP extension(s): dom, hash, iconv, json, mysqli, pcre, session, simplexml, soap, zip.
+2016-02-16 17:32:46 - Ok - Loaded php.ini files: /etc/php5/apache2/php.ini, /etc/php5/apache2/conf.d/10-pdo.ini, /etc/php5/apache2/conf.d/20-mysql.ini, /etc/php5/apache2/conf.d/20-mysqli.ini, /etc/php5/apache2/conf.d/20-pdo_mysql.ini
+2016-02-16 17:32:46 - Ok - The value for session.save_path (/var/lib/php5) is writable for the web server.
+2016-02-16 17:38:01 - Info - CheckPHPVersion
+2016-02-16 17:38:01 - Info - php.ini file(s): '/etc/php5/apache2/php.ini, /etc/php5/apache2/conf.d/10-pdo.ini, /etc/php5/apache2/conf.d/20-gd.ini, /etc/php5/apache2/conf.d/20-ldap.ini, /etc/php5/apache2/conf.d/20-mcrypt.ini, /etc/php5/apache2/conf.d/20-mysql.ini, /etc/php5/apache2/conf.d/20-mysqli.ini, /etc/php5/apache2/conf.d/20-pdo_mysql.ini'
+2016-02-16 17:38:01 - Info - Temporary directory for files upload (/tmp) is writable.
+2016-02-16 17:38:01 - Info - upload_max_filesize: 2M
+2016-02-16 17:38:01 - Info - post_max_size: 8M
+2016-02-16 17:38:01 - Info - max_file_uploads: 20
+2016-02-16 17:38:01 - Info - memory_limit is 134217728, ok.
+2016-02-16 17:38:01 - Info - session.save_path is: '/var/lib/php5'.
+2016-02-16 17:38:01 - Ok - The current PHP Version (5.4.45-0+deb7u2) is greater than the minimum version required to run iTop, which is (5.3.0)
+2016-02-16 17:38:01 - Ok - Required PHP extension(s): dom, hash, iconv, json, mysqli, pcre, session, simplexml, soap, zip.
+2016-02-16 17:38:01 - Ok - Optional PHP extension(s): gd, ldap, mcrypt.
+2016-02-16 17:38:01 - Ok - Loaded php.ini files: /etc/php5/apache2/php.ini, /etc/php5/apache2/conf.d/10-pdo.ini, /etc/php5/apache2/conf.d/20-gd.ini, /etc/php5/apache2/conf.d/20-ldap.ini, /etc/php5/apache2/conf.d/20-mcrypt.ini, /etc/php5/apache2/conf.d/20-mysql.ini, /etc/php5/apache2/conf.d/20-mysqli.ini, /etc/php5/apache2/conf.d/20-pdo_mysql.ini
+2016-02-16 17:38:01 - Ok - The value for session.save_path (/var/lib/php5) is writable for the web server.
+2016-02-16 17:38:11 - Info - CheckBackupPrerequisites
+2016-02-16 17:38:11 - Info - PHP functions disabled: pcntl_alarm,pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,
+2016-02-16 17:38:11 - Info - mysqldump -V said: mysqldump  Ver 10.13 Distrib 5.5.47, for debian-linux-gnu (x86_64)
+2016-02-16 17:38:12 - Info - operation 'async_action', peak memory usage. 7426984
+2016-02-16 17:38:17 - Info - operation 'async_action', peak memory usage. 7428192
+2016-02-16 17:38:30 - Info - operation 'async_action', peak memory usage. 7427408
+2016-02-16 17:38:31 - Info - operation 'async_action', peak memory usage. 7427408
+2016-02-16 17:38:33 - Info - operation 'async_action', peak memory usage. 7428000
+2016-02-16 17:38:35 - Info - operation 'async_action', peak memory usage. 7412640
+2016-02-16 17:39:01 - Info - CheckGraphviz
+2016-02-16 17:39:01 - Info - PHP functions disabled: pcntl_alarm,pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,
+2016-02-16 17:39:01 - Info - /usr/bin/dot -V said: sh: 1: /usr/bin/dot: not found
+2016-02-16 17:39:01 - Info - operation 'async_action', peak memory usage. 7416872
+2016-02-16 17:43:38 - Info - CheckPHPVersion
+2016-02-16 17:43:38 - Info - php.ini file(s): '/etc/php5/apache2/php.ini, /etc/php5/apache2/conf.d/10-pdo.ini, /etc/php5/apache2/conf.d/20-gd.ini, /etc/php5/apache2/conf.d/20-ldap.ini, /etc/php5/apache2/conf.d/20-mcrypt.ini, /etc/php5/apache2/conf.d/20-mysql.ini, /etc/php5/apache2/conf.d/20-mysqli.ini, /etc/php5/apache2/conf.d/20-pdo_mysql.ini'
+2016-02-16 17:43:38 - Info - Temporary directory for files upload (/tmp) is writable.
+2016-02-16 17:43:38 - Info - upload_max_filesize: 2M
+2016-02-16 17:43:38 - Info - post_max_size: 8M
+2016-02-16 17:43:38 - Info - max_file_uploads: 20
+2016-02-16 17:43:38 - Info - memory_limit is 134217728, ok.
+2016-02-16 17:43:38 - Info - session.save_path is: '/var/lib/php5'.
+2016-02-16 17:43:38 - Ok - The current PHP Version (5.4.45-0+deb7u2) is greater than the minimum version required to run iTop, which is (5.3.0)
+2016-02-16 17:43:38 - Ok - Required PHP extension(s): dom, hash, iconv, json, mysqli, pcre, session, simplexml, soap, zip.
+2016-02-16 17:43:38 - Ok - Optional PHP extension(s): gd, ldap, mcrypt.
+2016-02-16 17:43:38 - Ok - Loaded php.ini files: /etc/php5/apache2/php.ini, /etc/php5/apache2/conf.d/10-pdo.ini, /etc/php5/apache2/conf.d/20-gd.ini, /etc/php5/apache2/conf.d/20-ldap.ini, /etc/php5/apache2/conf.d/20-mcrypt.ini, /etc/php5/apache2/conf.d/20-mysql.ini, /etc/php5/apache2/conf.d/20-mysqli.ini, /etc/php5/apache2/conf.d/20-pdo_mysql.ini
+2016-02-16 17:43:38 - Ok - The value for session.save_path (/var/lib/php5) is writable for the web server.
+2016-02-16 17:43:40 - Info - CheckBackupPrerequisites
+2016-02-16 17:43:40 - Info - PHP functions disabled: pcntl_alarm,pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,
+2016-02-16 17:43:40 - Info - mysqldump -V said: mysqldump  Ver 10.13 Distrib 5.5.47, for debian-linux-gnu (x86_64)
+2016-02-16 17:43:40 - Info - operation 'async_action', peak memory usage. 7426984
+2016-02-16 17:43:43 - Info - operation 'async_action', peak memory usage. 7428192
+2016-02-16 17:43:47 - Info - operation 'async_action', peak memory usage. 7427200
+2016-02-16 17:43:49 - Info - operation 'async_action', peak memory usage. 7412640
+2016-02-16 17:44:08 - Info - CheckGraphviz
+2016-02-16 17:44:08 - Info - PHP functions disabled: pcntl_alarm,pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,
+2016-02-16 17:44:08 - Info - /usr/bin/dot -V said: dot - graphviz version 2.26.3 (20100126.1600)
+2016-02-16 17:44:08 - Info - operation 'async_action', peak memory usage. 7416776
+2016-02-16 17:47:15 - Info - ======= Installation starts =======
+Parameters:
+<?xml version="1.0" encoding="UTF-8"?>
+<installation>
+  <mode>install</mode>
+  <preinstall>
+    <copies type="array"/>
+  </preinstall>
+  <source_dir>datamodels/2.x/</source_dir>
+  <datamodel_version>2.2.0</datamodel_version>
+  <previous_configuration_file></previous_configuration_file>
+  <extensions_dir>extensions</extensions_dir>
+  <target_env>production</target_env>
+  <workspace_dir></workspace_dir>
+  <database>
+    <server>127.0.0.1</server>
+    <user>root</user>
+    <pwd>**removed**</pwd>
+    <name>iTop</name>
+    <prefix></prefix>
+  </database>
+  <url>http://dev.itop.local/</url>
+  <graphviz_path>/usr/bin/dot</graphviz_path>
+  <admin_account>
+    <user>admin</user>
+    <pwd>**removed**</pwd>
+    <language>EN US</language>
+  </admin_account>
+  <language>EN US</language>
+  <selected_modules type="array">
+    <item>authent-external</item>
+    <item>authent-ldap</item>
+    <item>authent-local</item>
+    <item>itop-backup</item>
+    <item>itop-config</item>
+    <item>itop-profiles-itil</item>
+    <item>itop-sla-computation</item>
+    <item>itop-tickets</item>
+    <item>itop-welcome-itil</item>
+    <item>itop-config-mgmt</item>
+    <item>itop-attachments</item>
+    <item>itop-datacenter-mgmt</item>
+    <item>itop-endusers-devices</item>
+    <item>itop-storage-mgmt</item>
+    <item>itop-virtualization-mgmt</item>
+    <item>itop-bridge-virtualization-storage</item>
+    <item>itop-service-mgmt-provider</item>
+    <item>itop-request-mgmt-itil</item>
+    <item>itop-incident-mgmt-itil</item>
+    <item>itop-change-mgmt-itil</item>
+    <item>itop-knownerror-mgmt</item>
+    <item>itop-problem-mgmt</item>
+  </selected_modules>
+  <sample_data>1</sample_data>
+  <old_addon></old_addon>
+  <options type="array"/>
+</installation>
+
+
+2016-02-16 17:47:15 - Info - operation 'async_action', peak memory usage. 7442576
+2016-02-16 17:47:15 - Info - operation 'async_action', peak memory usage. 7421832
+2016-02-16 17:47:15 - Info - Compiling data model.
+2016-02-16 17:47:21 - Info - Data model successfully compiled to '/vagrant/env-production'.
+2016-02-16 17:47:21 - Info - operation 'async_action', peak memory usage. 15874584
+2016-02-16 17:47:21 - Info - Update Database Schema for environment 'production'.
+2016-02-16 17:47:22 - Info - MetaModel::Startup (ModelOnly = 1)
+2016-02-16 17:47:23 - Info - Calling Module Handler: AttachmentInstaller::BeforeDatabaseCreation(oConfig, , 2.2.0)
+2016-02-16 17:47:23 - Info - Calling Module Handler: ConfigMgmtInstaller::BeforeDatabaseCreation(oConfig, , 2.2.0)
+2016-02-16 17:47:23 - Info - Calling Module Handler: EndUserMgmtInstaller::BeforeDatabaseCreation(oConfig, , 2.2.0)
+2016-02-16 17:47:23 - Info - Calling Module Handler: StorageMgmtInstaller::BeforeDatabaseCreation(oConfig, , 2.2.0)
+2016-02-16 17:47:23 - Info - Calling Module Handler: TicketsInstaller::BeforeDatabaseCreation(oConfig, , 2.2.0)
+2016-02-16 17:47:23 - Info - Calling Module Handler: KnownErrorMgmtInstaller::BeforeDatabaseCreation(oConfig, , 2.2.0)
+2016-02-16 17:47:23 - Info - Calling Module Handler: ServiceMgmtProviderInstaller::BeforeDatabaseCreation(oConfig, , 2.2.0)
+2016-02-16 17:47:23 - Info - Creating the structure in ''.
+2016-02-16 17:47:24 - Info - 0.139s - query: CREATE TABLE `priv_async_task` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `status` ENUM('error','idle','planned','running') DEFAULT 'planned', `created` DATETIME, `started` DATETIME, `planned` DATETIME, `event_id` INT(11) DEFAULT 0, INDEX (`event_id`), `remaining_retries` INT(11) DEFAULT 0, `last_error_code` INT(11) DEFAULT 0, `last_error` VARCHAR(255) DEFAULT '', `last_attempt` DATETIME, `realclass` VARCHAR(255) DEFAULT 'AsyncTask', INDEX (`realclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_async_send_email` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `version` INT(11) DEFAULT 1, `to` TEXT, `subject` TEXT, `message` LONGTEXT) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_db_properties` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `description` VARCHAR(255) DEFAULT '', `value` VARCHAR(255) DEFAULT '', `change_date` DATETIME, `change_comment` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `priv_change` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `date` DATETIME, `userinfo` VARCHAR(255) DEFAULT '', `origin` ENUM('csv-import.php','csv-interactive','custom-extension','email-processing','interactive','synchro-data-source','webservice-rest','webservice-soap') DEFAULT 'interactive', INDEX `origin` (`origin`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.005s - query: CREATE TABLE `priv_changeop` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `changeid` INT(11) DEFAULT 0, INDEX (`changeid`), `objclass` VARCHAR(255) DEFAULT '', `objkey` INT(11) DEFAULT 0, `optype` VARCHAR(255) DEFAULT 'CMDBChangeOp', INDEX (`optype`), INDEX `objclass_objkey` (`objclass`, `objkey`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_changeop_create` (`id` INT(11) NOT NULL  PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_changeop_delete` (`id` INT(11) NOT NULL  PRIMARY KEY, `fclass` VARCHAR(255) DEFAULT '', `fname` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_changeop_setatt` (`id` INT(11) NOT NULL  PRIMARY KEY, `attcode` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_changeop_setatt_scalar` (`id` INT(11) NOT NULL  PRIMARY KEY, `oldvalue` VARCHAR(255) DEFAULT '', `newvalue` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_changeop_setatt_data` (`id` INT(11) NOT NULL  PRIMARY KEY, `prevdata_data` LONGBLOB, `prevdata_mimetype` VARCHAR(255), `prevdata_filename` VARCHAR(255)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_changeop_setatt_pwd` (`id` INT(11) NOT NULL  PRIMARY KEY, `prev_pwd_hash` TINYBLOB, `prev_pwd_salt` TINYBLOB) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_changeop_setatt_encrypted` (`id` INT(11) NOT NULL  PRIMARY KEY, `data` TINYBLOB) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `priv_changeop_setatt_text` (`id` INT(11) NOT NULL  PRIMARY KEY, `prevdata` TEXT) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_changeop_setatt_longtext` (`id` INT(11) NOT NULL  PRIMARY KEY, `prevdata` LONGTEXT) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.005s - query: CREATE TABLE `priv_changeop_setatt_log` (`id` INT(11) NOT NULL  PRIMARY KEY, `lastentry` INT(11) DEFAULT 0) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_changeop_plugin` (`id` INT(11) NOT NULL  PRIMARY KEY, `description` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_changeop_links` (`id` INT(11) NOT NULL  PRIMARY KEY, `item_class` VARCHAR(255) DEFAULT '', `item_id` INT(11) DEFAULT 0) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_changeop_links_addremove` (`id` INT(11) NOT NULL  PRIMARY KEY, `type` ENUM('added','removed') DEFAULT 'added') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.002s - query: CREATE TABLE `priv_changeop_links_tune` (`id` INT(11) NOT NULL  PRIMARY KEY, `link_id` INT(11) DEFAULT 0) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `priv_user` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `contactid` INT(11) DEFAULT 0, INDEX (`contactid`), `login` VARCHAR(255) DEFAULT '', `language` VARCHAR(255) DEFAULT 'EN US', INDEX (`language`), `finalclass` VARCHAR(255) DEFAULT 'User', INDEX (`finalclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `priv_internaluser` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `reset_pwd_token` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `priv_module_install` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `version` VARCHAR(255) DEFAULT '', `installed` DATETIME, `comment` TEXT, `parent_id` INT(11) DEFAULT 0, INDEX (`parent_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `priv_app_dashboards` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `user_id` INT(11) DEFAULT 0, INDEX (`user_id`), `menu_code` VARCHAR(255) DEFAULT '', `contents` TEXT) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_shortcut` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `user_id` INT(11) DEFAULT 0, INDEX (`user_id`), `name` VARCHAR(255) DEFAULT '', `context` TEXT, `realclass` VARCHAR(255) DEFAULT 'Shortcut', INDEX (`realclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `priv_shortcut_oql` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `oql` TEXT, `auto_reload` ENUM('custom','none') DEFAULT 'none', `auto_reload_sec` INT(11) DEFAULT 60) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_app_preferences` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `userid` INT(11) DEFAULT 0, INDEX (`userid`), `preferences` LONGTEXT) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_auditrule` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `description` VARCHAR(255) DEFAULT '', `query` TEXT, `valid_flag` ENUM('false','true') DEFAULT 'true', `category_id` INT(11) DEFAULT 0, INDEX (`category_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `priv_auditcategory` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `description` VARCHAR(255) DEFAULT '', `definition_set` TEXT) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_query` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `description` TEXT, `fields` TEXT, `realclass` VARCHAR(255) DEFAULT 'Query', INDEX (`realclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_query_oql` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `oql` TEXT) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `priv_event` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `message` TEXT, `date` DATETIME, `userinfo` VARCHAR(255) DEFAULT '', `realclass` VARCHAR(255) DEFAULT 'Event', INDEX (`realclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `priv_event_notification` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `trigger_id` INT(11) DEFAULT 0, INDEX (`trigger_id`), `action_id` INT(11) DEFAULT 0, INDEX (`action_id`), `object_id` INT(11) DEFAULT 0, INDEX `object_id` (`object_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_event_email` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `to` TEXT, `cc` TEXT, `bcc` TEXT, `from` TEXT, `subject` TEXT, `body` LONGTEXT, `attachments` LONGTEXT) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `priv_event_issue` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `issue` VARCHAR(255) DEFAULT '', `impact` VARCHAR(255) DEFAULT '', `page` VARCHAR(255) DEFAULT '', `arguments_post` LONGTEXT, `arguments_get` LONGTEXT, `callstack` LONGTEXT, `data` LONGTEXT) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_event_webservice` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `verb` VARCHAR(255) DEFAULT '', `result` TINYINT(1) DEFAULT 0, `log_info` TEXT, `log_warning` TEXT, `log_error` TEXT, `data` TEXT) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `priv_event_restservice` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `operation` VARCHAR(255) DEFAULT '', `version` VARCHAR(255) DEFAULT '', `json_input` TEXT, `code` INT(11) DEFAULT 0, `json_output` TEXT, `provider` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `priv_event_loginusage` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `user_id` INT(11) DEFAULT 0, INDEX (`user_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `priv_action` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `description` VARCHAR(255) DEFAULT '', `status` ENUM('test','enabled','disabled') DEFAULT 'test', `realclass` VARCHAR(255) DEFAULT 'Action', INDEX (`realclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `priv_action_notification` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.234s - query: CREATE TABLE `priv_action_email` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `test_recipient` VARCHAR(255) DEFAULT '', `from` VARCHAR(255) DEFAULT '', `reply_to` VARCHAR(255) DEFAULT '', `to` TEXT, `cc` TEXT, `bcc` TEXT, `subject` VARCHAR(255) DEFAULT '', `body` TEXT, `importance` ENUM('high','low','normal') DEFAULT 'normal') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.005s - query: CREATE TABLE `priv_trigger` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `description` VARCHAR(255) DEFAULT '', `realclass` VARCHAR(255) DEFAULT 'Trigger', INDEX (`realclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_trigger_onobject` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `target_class` VARCHAR(255) DEFAULT 'ApplicationSolution', INDEX (`target_class`), `filter` TEXT) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_trigger_onportalupdate` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_trigger_onstatechange` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `state` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.002s - query: CREATE TABLE `priv_trigger_onstateenter` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_trigger_onstateleave` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_trigger_onobjcreate` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_link_action_trigger` (`link_id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `action_id` INT(11) DEFAULT 0, INDEX (`action_id`), `trigger_id` INT(11) DEFAULT 0, INDEX (`trigger_id`), `order` INT(11) DEFAULT 0) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_trigger_threshold` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `stop_watch_code` VARCHAR(255) DEFAULT '', `threshold_index` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_bulk_export_result` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `created` DATETIME, `user_id` INT(11) DEFAULT 0, `chunk_size` INT(11) DEFAULT 0, `format` VARCHAR(255) DEFAULT '', `temp_file_path` VARCHAR(255) DEFAULT '', `search` LONGTEXT, `status_info` LONGTEXT) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_ownership_token` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `acquired` DATETIME, `last_seen` DATETIME, `obj_class` VARCHAR(255) DEFAULT '', `obj_key` INT(11), `token` VARCHAR(255) DEFAULT '', `user_id` INT(11) DEFAULT 0, INDEX (`user_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_sync_datasource` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `description` VARCHAR(255) DEFAULT '', `status` ENUM('implementation','obsolete','production') DEFAULT 'implementation', `user_id` INT(11) DEFAULT 0, INDEX (`user_id`), `notify_contact_id` INT(11) DEFAULT 0, INDEX (`notify_contact_id`), `scope_class` VARCHAR(255) DEFAULT 'ApplicationSolution', INDEX (`scope_class`), `database_table_name` VARCHAR(255) DEFAULT '', `scope_restriction` VARCHAR(255) DEFAULT '', `full_load_periodicity` INT(11) UNSIGNED, `reconciliation_policy` ENUM('use_attributes','use_primary_key') DEFAULT 'use_attributes', `action_on_zero` ENUM('create','error') DEFAULT 'create', `action_on_one` ENUM('error','update') DEFAULT 'update', `action_on_multiple` ENUM('create','error','take_first') DEFAULT 'error', `delete_policy` ENUM('delete','ignore','update','update_then_delete') DEFAULT 'ignore', `delete_policy_update` VARCHAR(255) DEFAULT '', `delete_policy_retention` INT(11) UNSIGNED, `user_delete_policy` ENUM('administrators','everybody','nobody') DEFAULT 'nobody', `url_icon` VARCHAR(255) DEFAULT '', `url_application` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.002s - query: CREATE TABLE `priv_sync_att` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `sync_source_id` INT(11) DEFAULT 0, INDEX (`sync_source_id`), `attcode` VARCHAR(255) DEFAULT '', `update` TINYINT(1) DEFAULT 1, `reconcile` TINYINT(1) DEFAULT 0, `update_policy` ENUM('master_locked','master_unlocked','write_if_empty') DEFAULT 'master_locked', `finalclass` VARCHAR(255) DEFAULT 'SynchroAttribute', INDEX (`finalclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_sync_att_extkey` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `reconciliation_attcode` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_sync_att_linkset` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `row_separator` VARCHAR(255) DEFAULT '|', `attribute_separator` VARCHAR(255) DEFAULT ';', `value_separator` VARCHAR(255) DEFAULT ':', `attribute_qualifier` VARCHAR(255) DEFAULT '\'') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_sync_log` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `sync_source_id` INT(11) DEFAULT 0, INDEX (`sync_source_id`), `start_date` DATETIME, `end_date` DATETIME, `status` ENUM('completed','error','running') DEFAULT 'running', `status_curr_job` INT(11) DEFAULT 0, `status_curr_pos` INT(11) DEFAULT 0, `stats_nb_replica_seen` INT(11) DEFAULT 0, `stats_nb_replica_total` INT(11) DEFAULT 0, `stats_nb_obj_deleted` INT(11) DEFAULT 0, `stats_deleted_errors` INT(11) DEFAULT 0, `stats_nb_obj_obsoleted` INT(11) DEFAULT 0, `stats_nb_obj_obsoleted_errors` INT(11) DEFAULT 0, `stats_nb_obj_created` INT(11) DEFAULT 0, `stats_nb_obj_created_errors` INT(11) DEFAULT 0, `stats_nb_obj_created_warnings` INT(11) DEFAULT 0, `stats_nb_obj_updated` INT(11) DEFAULT 0, `stats_nb_obj_updated_errors` INT(11) DEFAULT 0, `stats_nb_obj_updated_warnings` INT(11) DEFAULT 0, `stats_nb_obj_unchanged_warnings` INT(11) DEFAULT 0, `stats_nb_replica_reconciled_errors` INT(11) DEFAULT 0, `stats_nb_replica_disappeared_no_action` INT(11) DEFAULT 0, `stats_nb_obj_new_updated` INT(11) DEFAULT 0, `stats_nb_obj_new_updated_warnings` INT(11) DEFAULT 0, `stats_nb_obj_new_unchanged` INT(11) DEFAULT 0, `stats_nb_obj_new_unchanged_warnings` INT(11) DEFAULT 0, `last_error` TEXT, `traces` LONGTEXT, `memory_usage_peak` INT(11) DEFAULT 0) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `priv_sync_replica` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `sync_source_id` INT(11) DEFAULT 0, INDEX (`sync_source_id`), `dest_id` INT(11) DEFAULT 0, `dest_class` VARCHAR(255) DEFAULT 'Organization', INDEX (`dest_class`), `status_last_seen` DATETIME, `status` ENUM('modified','new','obsolete','orphan','synchronized') DEFAULT 'new', `status_dest_creator` TINYINT(1) DEFAULT 0, `status_last_error` VARCHAR(255) DEFAULT '', `status_last_warning` VARCHAR(255) DEFAULT '', `info_creation_date` DATETIME, `info_last_modified` DATETIME) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_backgroundtask` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `class_name` VARCHAR(255) DEFAULT '', `first_run_date` DATETIME, `latest_run_date` DATETIME, `next_run_date` DATETIME, `total_exec_count` INT(11) DEFAULT 0, `latest_run_duration` DECIMAL(8,3) DEFAULT 0, `min_run_duration` DECIMAL(8,3) DEFAULT 0, `max_run_duration` DECIMAL(8,3) DEFAULT 0, `average_run_duration` DECIMAL(8,3) DEFAULT 0, `running` TINYINT(1) DEFAULT 0, `status` ENUM('active','paused') DEFAULT 'active') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `priv_user_local` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `password_hash` TINYBLOB, `password_salt` TINYBLOB) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `attachment` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `expire` DATETIME, `temp_id` VARCHAR(255) DEFAULT '', `item_class` VARCHAR(255) DEFAULT '', `item_id` INT(11) DEFAULT 0, `item_org_id` INT(11) DEFAULT 0, `contents_data` LONGBLOB, `contents_mimetype` VARCHAR(255), `contents_filename` VARCHAR(255), INDEX `temp_id` (`temp_id`), INDEX `item_class_item_id` (`item_class`, `item_id`), INDEX `item_org_id` (`item_org_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_changeop_attachment_added` (`id` INT(11) NOT NULL  PRIMARY KEY, `attachment_id` INT(11) DEFAULT 0, INDEX (`attachment_id`), `filename` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `priv_changeop_attachment_removed` (`id` INT(11) NOT NULL  PRIMARY KEY, `filename` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `organization` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `code` VARCHAR(255) DEFAULT '', `status` ENUM('active','inactive') DEFAULT 'active', `parent_id` INT(11) DEFAULT 0, INDEX (`parent_id`), `parent_id_left` INT(11) DEFAULT 0, INDEX (`parent_id_left`), `parent_id_right` INT(11) DEFAULT 0, INDEX (`parent_id_right`), `deliverymodel_id` INT(11) DEFAULT 0, INDEX (`deliverymodel_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `location` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `status` ENUM('active','inactive') DEFAULT 'active', `org_id` INT(11) DEFAULT 0, INDEX (`org_id`), `address` TEXT, `postal_code` VARCHAR(255) DEFAULT '', `city` VARCHAR(255) DEFAULT '', `country` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `contact` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `status` ENUM('active','inactive') DEFAULT 'active', `org_id` INT(11) DEFAULT 0, INDEX (`org_id`), `email` VARCHAR(255) DEFAULT '', `phone` VARCHAR(255) DEFAULT '', `notify` ENUM('no','yes') DEFAULT 'yes', `function` VARCHAR(255) DEFAULT '', `finalclass` VARCHAR(255) DEFAULT 'Contact', INDEX (`finalclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `person` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `first_name` VARCHAR(255) DEFAULT '', `employee_number` VARCHAR(255) DEFAULT '', `mobile_phone` VARCHAR(255) DEFAULT '', `location_id` INT(11) DEFAULT 0, INDEX (`location_id`), `manager_id` INT(11) DEFAULT 0, INDEX (`manager_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `team` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `document` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `org_id` INT(11) DEFAULT 0, INDEX (`org_id`), `documenttype_id` INT(11) DEFAULT 0, INDEX (`documenttype_id`), `version` VARCHAR(255) DEFAULT '', `description` TEXT, `status` ENUM('draft','obsolete','published'), `finalclass` VARCHAR(255) DEFAULT 'Document', INDEX (`finalclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.002s - query: CREATE TABLE `documentfile` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `file_data` LONGBLOB, `file_mimetype` VARCHAR(255), `file_filename` VARCHAR(255)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `documentnote` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `text` LONGTEXT) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `documentweb` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `url` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `functionalci` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `description` TEXT, `org_id` INT(11) DEFAULT 0, INDEX (`org_id`), `business_criticity` ENUM('high','low','medium') DEFAULT 'low', `move2production` DATE, `finalclass` VARCHAR(255) DEFAULT 'FunctionalCI', INDEX (`finalclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `physicaldevice` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `serialnumber` VARCHAR(255) DEFAULT '', `location_id` INT(11) DEFAULT 0, INDEX (`location_id`), `status` ENUM('implementation','obsolete','production','stock') DEFAULT 'production', `brand_id` INT(11) DEFAULT 0, INDEX (`brand_id`), `model_id` INT(11) DEFAULT 0, INDEX (`model_id`), `asset_number` VARCHAR(255) DEFAULT '', `purchase_date` DATE, `end_of_warranty` DATE) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `connectableci` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `datacenterdevice` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `rack_id` INT(11) DEFAULT 0, INDEX (`rack_id`), `enclosure_id` INT(11) DEFAULT 0, INDEX (`enclosure_id`), `nb_u` INT(11), `managementip` VARCHAR(255) DEFAULT '', `powera_id` INT(11) DEFAULT 0, INDEX (`powera_id`), `powerB_id` INT(11) DEFAULT 0, INDEX (`powerB_id`), `redundancy` VARCHAR(20) DEFAULT 1) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `networkdevice` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `networkdevicetype_id` INT(11) DEFAULT 0, INDEX (`networkdevicetype_id`), `iosversion_id` INT(11) DEFAULT 0, INDEX (`iosversion_id`), `ram` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `server` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `osfamily_id` INT(11) DEFAULT 0, INDEX (`osfamily_id`), `osversion_id` INT(11) DEFAULT 0, INDEX (`osversion_id`), `oslicence_id` INT(11) DEFAULT 0, INDEX (`oslicence_id`), `cpu` VARCHAR(255) DEFAULT '', `ram` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `applicationsolution` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `status` ENUM('active','inactive') DEFAULT 'active', `redundancy` VARCHAR(20) DEFAULT 'disabled') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `businessprocess` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `status` ENUM('active','inactive') DEFAULT 'active') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `softwareinstance` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `functionalci_id` INT(11) DEFAULT 0, INDEX (`functionalci_id`), `software_id` INT(11) DEFAULT 0, INDEX (`software_id`), `softwarelicence_id` INT(11) DEFAULT 0, INDEX (`softwarelicence_id`), `path` VARCHAR(255) DEFAULT '', `status` ENUM('active','inactive')) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `middleware` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.002s - query: CREATE TABLE `dbserver` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `webserver` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `pcsoftware` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.027s - query: CREATE TABLE `othersoftware` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.102s - query: CREATE TABLE `middlewareinstance` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `middleware_id` INT(11) DEFAULT 0, INDEX (`middleware_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `databaseschema` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `dbserver_id` INT(11) DEFAULT 0, INDEX (`dbserver_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.005s - query: CREATE TABLE `webapplication` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `webserver_id` INT(11) DEFAULT 0, INDEX (`webserver_id`), `url` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `software` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `vendor` VARCHAR(255) DEFAULT '', `version` VARCHAR(255) DEFAULT '', `type` ENUM('DBServer','Middleware','OtherSoftware','PCSoftware','WebServer')) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `patch` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `description` TEXT, `finalclass` VARCHAR(255) DEFAULT 'Patch', INDEX (`finalclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `ospatch` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `osversion_id` INT(11) DEFAULT 0, INDEX (`osversion_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `softwarepatch` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `software_id` INT(11) DEFAULT 0, INDEX (`software_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `licence` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `org_id` INT(11) DEFAULT 0, INDEX (`org_id`), `usage_limit` VARCHAR(255) DEFAULT '', `description` TEXT, `start_date` DATE, `end_date` DATE, `licence_key` VARCHAR(255) DEFAULT '', `perpetual` ENUM('no','yes') DEFAULT 'no', `finalclass` VARCHAR(255) DEFAULT 'Licence', INDEX (`finalclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.005s - query: CREATE TABLE `oslicence` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `osversion_id` INT(11) DEFAULT 0, INDEX (`osversion_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `softwarelicence` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `software_id` INT(11) DEFAULT 0, INDEX (`software_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `lnkdocumenttolicence` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `licence_id` INT(11) DEFAULT 0, INDEX (`licence_id`), `document_id` INT(11) DEFAULT 0, INDEX (`document_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `typology` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `finalclass` VARCHAR(255) DEFAULT 'Typology', INDEX (`finalclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `osversion` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `osfamily_id` INT(11) DEFAULT 0, INDEX (`osfamily_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `osfamily` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `documenttype` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `contacttype` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `brand` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `model` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `brand_id` INT(11) DEFAULT 0, INDEX (`brand_id`), `type` ENUM('DiskArray','Enclosure','IPPhone','MobilePhone','NAS','NetworkDevice','PC','PDU','Peripheral','Phone','PowerSource','Printer','Rack','SANSwitch','Server','StorageSystem','Tablet','TapeLibrary')) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `networkdevicetype` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `iosversion` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `brand_id` INT(11) DEFAULT 0, INDEX (`brand_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `lnkdocumenttopatch` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `patch_id` INT(11) DEFAULT 0, INDEX (`patch_id`), `document_id` INT(11) DEFAULT 0, INDEX (`document_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `lnksoftwareinstancetosoftwarepatch` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `softwarepatch_id` INT(11) DEFAULT 0, INDEX (`softwarepatch_id`), `softwareinstance_id` INT(11) DEFAULT 0, INDEX (`softwareinstance_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.002s - query: CREATE TABLE `lnkfunctionalcitoospatch` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `ospatch_id` INT(11) DEFAULT 0, INDEX (`ospatch_id`), `functionalci_id` INT(11) DEFAULT 0, INDEX (`functionalci_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `lnkdocumenttosoftware` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `software_id` INT(11) DEFAULT 0, INDEX (`software_id`), `document_id` INT(11) DEFAULT 0, INDEX (`document_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `lnkcontacttofunctionalci` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `functionalci_id` INT(11) DEFAULT 0, INDEX (`functionalci_id`), `contact_id` INT(11) DEFAULT 0, INDEX (`contact_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `lnkdocumenttofunctionalci` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `functionalci_id` INT(11) DEFAULT 0, INDEX (`functionalci_id`), `document_id` INT(11) DEFAULT 0, INDEX (`document_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `subnet` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `description` TEXT, `subnet_name` VARCHAR(255) DEFAULT '', `org_id` INT(11) DEFAULT 0, INDEX (`org_id`), `ip` VARCHAR(255) DEFAULT '', `ip_mask` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `vlan` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `vlan_tag` VARCHAR(255) DEFAULT '', `description` TEXT, `org_id` INT(11) DEFAULT 0, INDEX (`org_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `lnksubnettovlan` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `subnet_id` INT(11) DEFAULT 0, INDEX (`subnet_id`), `vlan_id` INT(11) DEFAULT 0, INDEX (`vlan_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.006s - query: CREATE TABLE `networkinterface` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `finalclass` VARCHAR(255) DEFAULT 'NetworkInterface', INDEX (`finalclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `ipinterface` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `ipaddress` VARCHAR(255) DEFAULT '', `macaddress` VARCHAR(255) DEFAULT '', `comment` TEXT, `ipgateway` VARCHAR(255) DEFAULT '', `ipmask` VARCHAR(255) DEFAULT '', `speed` DECIMAL(12,2)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `physicalinterface` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `connectableci_id` INT(11) DEFAULT 0, INDEX (`connectableci_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.002s - query: CREATE TABLE `lnkphysicalinterfacetovlan` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `physicalinterface_id` INT(11) DEFAULT 0, INDEX (`physicalinterface_id`), `vlan_id` INT(11) DEFAULT 0, INDEX (`vlan_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `lnkconnectablecitonetworkdevice` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `networkdevice_id` INT(11) DEFAULT 0, INDEX (`networkdevice_id`), `connectableci_id` INT(11) DEFAULT 0, INDEX (`connectableci_id`), `network_port` VARCHAR(255) DEFAULT '', `device_port` VARCHAR(255) DEFAULT '', `type` ENUM('downlink','uplink') DEFAULT 'downlink') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `lnkapplicationsolutiontofunctionalci` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `applicationsolution_id` INT(11) DEFAULT 0, INDEX (`applicationsolution_id`), `functionalci_id` INT(11) DEFAULT 0, INDEX (`functionalci_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `lnkapplicationsolutiontobusinessprocess` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `businessprocess_id` INT(11) DEFAULT 0, INDEX (`businessprocess_id`), `applicationsolution_id` INT(11) DEFAULT 0, INDEX (`applicationsolution_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `lnkpersontoteam` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `team_id` INT(11) DEFAULT 0, INDEX (`team_id`), `person_id` INT(11) DEFAULT 0, INDEX (`person_id`), `role_id` INT(11) DEFAULT 0, INDEX (`role_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `group` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `status` ENUM('implementation','obsolete','production') DEFAULT 'implementation', `org_id` INT(11) DEFAULT 0, INDEX (`org_id`), `description` TEXT, `type` VARCHAR(255) DEFAULT '', `parent_id` INT(11) DEFAULT 0, INDEX (`parent_id`), `parent_id_left` INT(11) DEFAULT 0, INDEX (`parent_id_left`), `parent_id_right` INT(11) DEFAULT 0, INDEX (`parent_id_right`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `lnkgrouptoci` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `group_id` INT(11) DEFAULT 0, INDEX (`group_id`), `ci_id` INT(11) DEFAULT 0, INDEX (`ci_id`), `reason` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `rack` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `nb_u` INT(11)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `enclosure` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `rack_id` INT(11) DEFAULT 0, INDEX (`rack_id`), `nb_u` INT(11)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `powerconnection` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `powersource` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `pdu` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `rack_id` INT(11) DEFAULT 0, INDEX (`rack_id`), `powerstart_id` INT(11) DEFAULT 0, INDEX (`powerstart_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.005s - query: CREATE TABLE `pc` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `osfamily_id` INT(11) DEFAULT 0, INDEX (`osfamily_id`), `osversion_id` INT(11) DEFAULT 0, INDEX (`osversion_id`), `cpu` VARCHAR(255) DEFAULT '', `ram` VARCHAR(255) DEFAULT '', `type` ENUM('desktop','laptop')) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `printer` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `telephonyci` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `phonenumber` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.002s - query: CREATE TABLE `phone` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `mobilephone` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `imei` VARCHAR(255) DEFAULT '', `hw_pin` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `ipphone` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `tablet` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `peripheral` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `storagesystem` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `sanswitch` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `tapelibrary` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `nas` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.002s - query: CREATE TABLE `fiberchannelinterface` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `speed` DECIMAL(6,2), `topology` VARCHAR(255) DEFAULT '', `wwn` VARCHAR(255) DEFAULT '', `datacenterdevice_id` INT(11) DEFAULT 0, INDEX (`datacenterdevice_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.003s - query: CREATE TABLE `tape` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `description` TEXT, `size` VARCHAR(255) DEFAULT '', `tapelibrary_id` INT(11) DEFAULT 0, INDEX (`tapelibrary_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:24 - Info - 0.004s - query: CREATE TABLE `nasfilesystem` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `description` TEXT, `raid_level` VARCHAR(255) DEFAULT '', `size` VARCHAR(255) DEFAULT '', `nas_id` INT(11) DEFAULT 0, INDEX (`nas_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.244s - query: CREATE TABLE `logicalvolume` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `lun_id` VARCHAR(255) DEFAULT '', `description` TEXT, `raid_level` VARCHAR(255) DEFAULT '', `size` VARCHAR(255) DEFAULT '', `storagesystem_id` INT(11) DEFAULT 0, INDEX (`storagesystem_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.034s - query: CREATE TABLE `lnkservertovolume` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `volume_id` INT(11) DEFAULT 0, INDEX (`volume_id`), `server_id` INT(11) DEFAULT 0, INDEX (`server_id`), `size_used` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `lnkdatacenterdevicetosan` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `san_id` INT(11) DEFAULT 0, INDEX (`san_id`), `datacenterdevice_id` INT(11) DEFAULT 0, INDEX (`datacenterdevice_id`), `san_port` VARCHAR(255) DEFAULT '', `datacenterdevice_port` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `ticket` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `ref` VARCHAR(255) DEFAULT '', `org_id` INT(11) DEFAULT 0, INDEX (`org_id`), `caller_id` INT(11) DEFAULT 0, INDEX (`caller_id`), `team_id` INT(11) DEFAULT 0, INDEX (`team_id`), `agent_id` INT(11) DEFAULT 0, INDEX (`agent_id`), `title` VARCHAR(255) DEFAULT '', `description` TEXT, `start_date` DATETIME, `end_date` DATETIME, `last_update` DATETIME, `close_date` DATETIME, `private_log` LONGTEXT, `private_log_index` BLOB, `finalclass` VARCHAR(255) DEFAULT 'Ticket', INDEX (`finalclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `lnkcontacttoticket` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `ticket_id` INT(11) DEFAULT 0, INDEX (`ticket_id`), `contact_id` INT(11) DEFAULT 0, INDEX (`contact_id`), `role` VARCHAR(255) DEFAULT '', `impact_code` ENUM('computed','do_not_notify','manual') DEFAULT 'manual') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.003s - query: CREATE TABLE `lnkfunctionalcitoticket` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `ticket_id` INT(11) DEFAULT 0, INDEX (`ticket_id`), `functionalci_id` INT(11) DEFAULT 0, INDEX (`functionalci_id`), `impact` VARCHAR(255) DEFAULT '', `impact_code` ENUM('computed','manual','not_impacted') DEFAULT 'manual') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `workorder` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `status` ENUM('closed','open') DEFAULT 'open', `description` TEXT, `ticket_id` INT(11) DEFAULT 0, INDEX (`ticket_id`), `team_id` INT(11) DEFAULT 0, INDEX (`team_id`), `owner_id` INT(11) DEFAULT 0, INDEX (`owner_id`), `start_date` DATETIME, `end_date` DATETIME, `log` LONGTEXT, `log_index` BLOB) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `virtualdevice` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `status` ENUM('implementation','obsolete','production','stock') DEFAULT 'production') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.003s - query: CREATE TABLE `virtualhost` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `hypervisor` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `farm_id` INT(11) DEFAULT 0, INDEX (`farm_id`), `server_id` INT(11) DEFAULT 0, INDEX (`server_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `farm` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `redundancy` VARCHAR(20) DEFAULT 1) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.106s - query: CREATE TABLE `virtualmachine` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `virtualhost_id` INT(11) DEFAULT 0, INDEX (`virtualhost_id`), `osfamily_id` INT(11) DEFAULT 0, INDEX (`osfamily_id`), `osversion_id` INT(11) DEFAULT 0, INDEX (`osversion_id`), `oslicence_id` INT(11) DEFAULT 0, INDEX (`oslicence_id`), `cpu` VARCHAR(255) DEFAULT '', `ram` VARCHAR(255) DEFAULT '', `managementip` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `logicalinterface` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `virtualmachine_id` INT(11) DEFAULT 0, INDEX (`virtualmachine_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `lnkvirtualdevicetovolume` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `volume_id` INT(11) DEFAULT 0, INDEX (`volume_id`), `virtualdevice_id` INT(11) DEFAULT 0, INDEX (`virtualdevice_id`), `size_used` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.006s - query: CREATE TABLE `change` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `status` ENUM('approved','assigned','closed','implemented','monitored','new','notapproved','plannedscheduled','rejected','validated') DEFAULT 'new', `reason` VARCHAR(255) DEFAULT '', `requestor_id` INT(11) DEFAULT 0, INDEX (`requestor_id`), `creation_date` DATETIME, `impact` VARCHAR(255) DEFAULT '', `supervisor_group_id` INT(11) DEFAULT 0, INDEX (`supervisor_group_id`), `supervisor_id` INT(11) DEFAULT 0, INDEX (`supervisor_id`), `manager_group_id` INT(11) DEFAULT 0, INDEX (`manager_group_id`), `manager_id` INT(11) DEFAULT 0, INDEX (`manager_id`), `outage` ENUM('no','yes') DEFAULT 'no', `fallback` TEXT, `parent_id` INT(11) DEFAULT 0, INDEX (`parent_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `change_routine` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `change_approved` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `approval_date` DATETIME, `approval_comment` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.006s - query: CREATE TABLE `change_normal` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `acceptance_date` DATETIME, `acceptance_comment` TEXT) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `change_emergency` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.005s - query: CREATE TABLE `ticket_incident` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `status` ENUM('assigned','closed','escalated_tto','escalated_ttr','new','pending','resolved') DEFAULT 'new', `impact` ENUM('1','2','3') DEFAULT '1', `priority` ENUM('1','2','3','4') DEFAULT '4', `urgency` ENUM('1','2','3','4') DEFAULT '4', `origin` ENUM('mail','monitoring','phone','portal') DEFAULT 'phone', `service_id` INT(11) DEFAULT 0, INDEX (`service_id`), `servicesubcategory_id` INT(11) DEFAULT 0, INDEX (`servicesubcategory_id`), `escalation_flag` ENUM('no','yes') DEFAULT 'no', `escalation_reason` VARCHAR(255) DEFAULT '', `assignment_date` DATETIME, `resolution_date` DATETIME, `last_pending_date` DATETIME, `cumulatedpending_timespent` INT(11) UNSIGNED, `cumulatedpending_started` DATETIME, `cumulatedpending_laststart` DATETIME, `cumulatedpending_stopped` DATETIME, `tto_timespent` INT(11) UNSIGNED, `tto_started` DATETIME, `tto_laststart` DATETIME, `tto_stopped` DATETIME, `tto_75_deadline` DATETIME, `tto_75_passed` TINYINT(1) UNSIGNED, `tto_75_triggered` TINYINT(1), `tto_75_overrun` INT(11) UNSIGNED, `tto_100_deadline` DATETIME, `tto_100_passed` TINYINT(1) UNSIGNED, `tto_100_triggered` TINYINT(1), `tto_100_overrun` INT(11) UNSIGNED, `ttr_timespent` INT(11) UNSIGNED, `ttr_started` DATETIME, `ttr_laststart` DATETIME, `ttr_stopped` DATETIME, `ttr_75_deadline` DATETIME, `ttr_75_passed` TINYINT(1) UNSIGNED, `ttr_75_triggered` TINYINT(1), `ttr_75_overrun` INT(11) UNSIGNED, `ttr_100_deadline` DATETIME, `ttr_100_passed` TINYINT(1) UNSIGNED, `ttr_100_triggered` TINYINT(1), `ttr_100_overrun` INT(11) UNSIGNED, `time_spent` INT(11) UNSIGNED, `resolution_code` ENUM('assistance','bug fixed','hardware repair','other','software patch','system update','training') DEFAULT 'assistance', `solution` TEXT, `pending_reason` TEXT, `parent_incident_id` INT(11) DEFAULT 0, INDEX (`parent_incident_id`), `parent_problem_id` INT(11) DEFAULT 0, INDEX (`parent_problem_id`), `parent_change_id` INT(11) DEFAULT 0, INDEX (`parent_change_id`), `public_log` LONGTEXT, `public_log_index` BLOB, `user_satisfaction` ENUM('1','2','3','4') DEFAULT '1', `user_commment` TEXT) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `knownerror` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `cust_id` INT(11) DEFAULT 0, INDEX (`cust_id`), `problem_id` INT(11) DEFAULT 0, INDEX (`problem_id`), `symptom` TEXT, `rootcause` TEXT, `workaround` TEXT, `solution` TEXT, `error_code` VARCHAR(255) DEFAULT '', `domain` ENUM('Application','Desktop','Network','Server') DEFAULT 'Application', `vendor` VARCHAR(255) DEFAULT '', `model` VARCHAR(255) DEFAULT '', `version` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `lnkerrortofunctionalci` (`link_id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `functionalci_id` INT(11) DEFAULT 0, INDEX (`functionalci_id`), `error_id` INT(11) DEFAULT 0, INDEX (`error_id`), `dummy` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.005s - query: CREATE TABLE `lnkdocumenttoerror` (`link_id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `document_id` INT(11) DEFAULT 0, INDEX (`document_id`), `error_id` INT(11) DEFAULT 0, INDEX (`error_id`), `link_type` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `faq` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `title` VARCHAR(255) DEFAULT '', `summary` TEXT, `description` LONGTEXT, `category_id` INT(11) DEFAULT 0, INDEX (`category_id`), `error_code` VARCHAR(255) DEFAULT '', `key_words` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `faqcategory` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `nam` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `ticket_problem` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `status` ENUM('assigned','closed','new','resolved') DEFAULT 'new', `service_id` INT(11) DEFAULT 0, INDEX (`service_id`), `servicesubcategory_id` INT(11) DEFAULT 0, INDEX (`servicesubcategory_id`), `product` VARCHAR(255) DEFAULT '', `impact` ENUM('1','2','3') DEFAULT '1', `urgency` ENUM('1','2','3','4') DEFAULT '1', `priority` ENUM('1','2','3','4') DEFAULT '1', `related_change_id` INT(11) DEFAULT 0, INDEX (`related_change_id`), `assignment_date` DATETIME, `resolution_date` DATETIME) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.006s - query: CREATE TABLE `ticket_request` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `status` ENUM('approved','assigned','closed','escalated_tto','escalated_ttr','new','pending','rejected','resolved','waiting_for_approval') DEFAULT 'new', `request_type` ENUM('service_request') DEFAULT 'service_request', `impact` ENUM('1','2','3') DEFAULT '1', `priority` ENUM('1','2','3','4') DEFAULT '4', `urgency` ENUM('1','2','3','4') DEFAULT '4', `origin` ENUM('mail','phone','portal') DEFAULT 'phone', `approver_id` INT(11) DEFAULT 0, INDEX (`approver_id`), `service_id` INT(11) DEFAULT 0, INDEX (`service_id`), `servicesubcategory_id` INT(11) DEFAULT 0, INDEX (`servicesubcategory_id`), `escalation_flag` ENUM('no','yes') DEFAULT 'no', `escalation_reason` VARCHAR(255) DEFAULT '', `assignment_date` DATETIME, `resolution_date` DATETIME, `last_pending_date` DATETIME, `cumulatedpending_timespent` INT(11) UNSIGNED, `cumulatedpending_started` DATETIME, `cumulatedpending_laststart` DATETIME, `cumulatedpending_stopped` DATETIME, `tto_timespent` INT(11) UNSIGNED, `tto_started` DATETIME, `tto_laststart` DATETIME, `tto_stopped` DATETIME, `tto_75_deadline` DATETIME, `tto_75_passed` TINYINT(1) UNSIGNED, `tto_75_triggered` TINYINT(1), `tto_75_overrun` INT(11) UNSIGNED, `tto_100_deadline` DATETIME, `tto_100_passed` TINYINT(1) UNSIGNED, `tto_100_triggered` TINYINT(1), `tto_100_overrun` INT(11) UNSIGNED, `ttr_timespent` INT(11) UNSIGNED, `ttr_started` DATETIME, `ttr_laststart` DATETIME, `ttr_stopped` DATETIME, `ttr_75_deadline` DATETIME, `ttr_75_passed` TINYINT(1) UNSIGNED, `ttr_75_triggered` TINYINT(1), `ttr_75_overrun` INT(11) UNSIGNED, `ttr_100_deadline` DATETIME, `ttr_100_passed` TINYINT(1) UNSIGNED, `ttr_100_triggered` TINYINT(1), `ttr_100_overrun` INT(11) UNSIGNED, `time_spent` INT(11) UNSIGNED, `resolution_code` ENUM('assistance','bug fixed','hardware repair','other','software patch','system update','training') DEFAULT 'assistance', `solution` TEXT, `pending_reason` TEXT, `parent_request_id` INT(11) DEFAULT 0, INDEX (`parent_request_id`), `parent_incident_id` INT(11) DEFAULT 0, INDEX (`parent_incident_id`), `parent_problem_id` INT(11) DEFAULT 0, INDEX (`parent_problem_id`), `parent_change_id` INT(11) DEFAULT 0, INDEX (`parent_change_id`), `public_log` LONGTEXT, `public_log_index` BLOB, `user_satisfaction` ENUM('1','2','3','4') DEFAULT '1', `user_commment` TEXT) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.005s - query: CREATE TABLE `contracttype` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `contract` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `org_id` INT(11) DEFAULT 0, INDEX (`org_id`), `description` TEXT, `start_date` DATE, `end_date` DATE, `cost` VARCHAR(255) DEFAULT '', `cost_currency` ENUM('dollars','euros'), `contracttype_id` INT(11) DEFAULT 0, INDEX (`contracttype_id`), `billing_frequency` VARCHAR(255) DEFAULT '', `cost_unit` VARCHAR(255) DEFAULT '', `provider_id` INT(11) DEFAULT 0, INDEX (`provider_id`), `status` ENUM('implementation','obsolete','production'), `finalclass` VARCHAR(255) DEFAULT 'Contract', INDEX (`finalclass`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `customercontract` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `providercontract` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `sla` VARCHAR(255) DEFAULT '', `coverage` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `lnkcontacttocontract` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `contract_id` INT(11) DEFAULT 0, INDEX (`contract_id`), `contact_id` INT(11) DEFAULT 0, INDEX (`contact_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `lnkcontracttodocument` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `contract_id` INT(11) DEFAULT 0, INDEX (`contract_id`), `document_id` INT(11) DEFAULT 0, INDEX (`document_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.005s - query: CREATE TABLE `lnkfunctionalcitoprovidercontract` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `providercontract_id` INT(11) DEFAULT 0, INDEX (`providercontract_id`), `functionalci_id` INT(11) DEFAULT 0, INDEX (`functionalci_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `servicefamilly` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `service` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `org_id` INT(11) DEFAULT 0, INDEX (`org_id`), `servicefamily_id` INT(11) DEFAULT 0, INDEX (`servicefamily_id`), `description` VARCHAR(255) DEFAULT '', `status` ENUM('implementation','obsolete','production')) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `lnkdocumenttoservice` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `service_id` INT(11) DEFAULT 0, INDEX (`service_id`), `document_id` INT(11) DEFAULT 0, INDEX (`document_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.005s - query: CREATE TABLE `lnkcontacttoservice` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `service_id` INT(11) DEFAULT 0, INDEX (`service_id`), `contact_id` INT(11) DEFAULT 0, INDEX (`contact_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.006s - query: CREATE TABLE `servicesubcategory` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `description` TEXT, `service_id` INT(11) DEFAULT 0, INDEX (`service_id`), `request_type` ENUM('incident','service_request') DEFAULT 'incident', `status` ENUM('implementation','obsolete','production')) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.005s - query: CREATE TABLE `sla` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `description` TEXT, `org_id` INT(11) DEFAULT 0, INDEX (`org_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.007s - query: CREATE TABLE `slt` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `priority` ENUM('1','2','3','4'), `request_type` ENUM('incident','service_request'), `metric` ENUM('tto','ttr'), `value` INT(11), `unit` ENUM('hours','minutes')) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.005s - query: CREATE TABLE `lnkslatoslt` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `sla_id` INT(11) DEFAULT 0, INDEX (`sla_id`), `slt_id` INT(11) DEFAULT 0, INDEX (`slt_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.028s - query: CREATE TABLE `lnkcustomercontracttoservice` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `customercontract_id` INT(11) DEFAULT 0, INDEX (`customercontract_id`), `service_id` INT(11) DEFAULT 0, INDEX (`service_id`), `sla_id` INT(11) DEFAULT 0, INDEX (`sla_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.005s - query: CREATE TABLE `lnkcustomercontracttoprovidercontract` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `customercontract_id` INT(11) DEFAULT 0, INDEX (`customercontract_id`), `providercontract_id` INT(11) DEFAULT 0, INDEX (`providercontract_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `lnkcustomercontracttofunctionalci` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `customercontract_id` INT(11) DEFAULT 0, INDEX (`customercontract_id`), `functionalci_id` INT(11) DEFAULT 0, INDEX (`functionalci_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `deliverymodel` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `org_id` INT(11) DEFAULT 0, INDEX (`org_id`), `description` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `lnkdeliverymodeltocontact` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `deliverymodel_id` INT(11) DEFAULT 0, INDEX (`deliverymodel_id`), `contact_id` INT(11) DEFAULT 0, INDEX (`contact_id`), `role_id` INT(11) DEFAULT 0, INDEX (`role_id`)) ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `priv_urp_profiles` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) DEFAULT '', `description` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.005s - query: CREATE TABLE `priv_urp_userprofile` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `userid` INT(11) DEFAULT 0, INDEX (`userid`), `profileid` INT(11) DEFAULT 0, INDEX (`profileid`), `description` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:25 - Info - 0.004s - query: CREATE TABLE `priv_urp_userorg` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `userid` INT(11) DEFAULT 0, INDEX (`userid`), `allowed_org_id` INT(11) DEFAULT 0, INDEX (`allowed_org_id`), `reason` VARCHAR(255) DEFAULT '') ENGINE = innodb CHARACTER SET utf8 COLLATE utf8_unicode_ci 
+2016-02-16 17:47:27 - Ok - Database structure successfully created.
+2016-02-16 17:47:27 - Info - 'priv_change.origin' already initialized, nothing to do.
+2016-02-16 17:47:27 - Info - 'priv_async_task.status' already initialized, nothing to do.
+2016-02-16 17:47:27 - Info - Database Schema Successfully Updated for environment 'production'.
+2016-02-16 17:47:27 - Info - operation 'async_action', peak memory usage. 78035712
+2016-02-16 17:47:27 - Info - After Database Creation
+2016-02-16 17:47:27 - Info - MetaModel::Startup (ModelOnly = 1)
+2016-02-16 17:47:28 - Info - Calling Module Handler: AttachmentInstaller::AfterDatabaseCreation(oConfig, , 2.2.0)
+2016-02-16 17:47:28 - Info - Initializing attachment/item_org_id - null to zero
+2016-02-16 17:47:28 - Info - Initializing attachment/item_org_id - zero to the container
+2016-02-16 17:47:28 - Info - Initializing attachment/item_org_id - 0 records have been adjusted
+2016-02-16 17:47:28 - Info - Calling Module Handler: ConfigMgmtInstaller::AfterDatabaseCreation(oConfig, , 2.2.0)
+2016-02-16 17:47:28 - Info - Calling Module Handler: EndUserMgmtInstaller::AfterDatabaseCreation(oConfig, , 2.2.0)
+2016-02-16 17:47:28 - Info - Calling Module Handler: StorageMgmtInstaller::AfterDatabaseCreation(oConfig, , 2.2.0)
+2016-02-16 17:47:28 - Info - Calling Module Handler: TicketsInstaller::AfterDatabaseCreation(oConfig, , 2.2.0)
+2016-02-16 17:47:28 - Info - Calling Module Handler: KnownErrorMgmtInstaller::AfterDatabaseCreation(oConfig, , 2.2.0)
+2016-02-16 17:47:28 - Info - Calling Module Handler: ServiceMgmtProviderInstaller::AfterDatabaseCreation(oConfig, , 2.2.0)
+2016-02-16 17:47:28 - Info - URP_Profiles::GetPredefinedObjects() returned 12 elements.
+2016-02-16 17:47:30 - Info - CreateAdminAccount
+2016-02-16 17:47:32 - Info - Administrator account 'admin' created.
+2016-02-16 17:47:32 - Info - Calling Module Handler: AttachmentInstaller::AfterDatabaseSetup(oConfig, , 2.2.0)
+2016-02-16 17:47:32 - Info - Calling Module Handler: ConfigMgmtInstaller::AfterDatabaseSetup(oConfig, , 2.2.0)
+2016-02-16 17:47:32 - Info - Calling Module Handler: EndUserMgmtInstaller::AfterDatabaseSetup(oConfig, , 2.2.0)
+2016-02-16 17:47:32 - Info - Calling Module Handler: StorageMgmtInstaller::AfterDatabaseSetup(oConfig, , 2.2.0)
+2016-02-16 17:47:32 - Info - Calling Module Handler: TicketsInstaller::AfterDatabaseSetup(oConfig, , 2.2.0)
+2016-02-16 17:47:32 - Info - Calling Module Handler: KnownErrorMgmtInstaller::AfterDatabaseSetup(oConfig, , 2.2.0)
+2016-02-16 17:47:32 - Info - Calling Module Handler: ServiceMgmtProviderInstaller::AfterDatabaseSetup(oConfig, , 2.2.0)
+2016-02-16 17:47:32 - Info - operation 'async_action', peak memory usage. 69514336
+2016-02-16 17:47:32 - Info - MetaModel::Startup (ModelOnly = )
+2016-02-16 17:47:33 - Info - starting data load session
+2016-02-16 17:47:33 - Info - Loading file: /vagrant/env-production/itop-config-mgmt/data.sample.organizations.xml
+2016-02-16 17:47:34 - Info - loading of data.sample.organizations.xml done.
+2016-02-16 17:47:34 - Info - Loading file: /vagrant/env-production/itop-config-mgmt/data.sample.brand.xml
+2016-02-16 17:47:36 - Info - loading of data.sample.brand.xml done.
+2016-02-16 17:47:36 - Info - Loading file: /vagrant/env-production/itop-config-mgmt/data.sample.model.xml
+2016-02-16 17:47:37 - Info - loading of data.sample.model.xml done.
+2016-02-16 17:47:37 - Info - Loading file: /vagrant/env-production/itop-config-mgmt/data.sample.osfamily.xml
+2016-02-16 17:47:37 - Info - loading of data.sample.osfamily.xml done.
+2016-02-16 17:47:37 - Info - Loading file: /vagrant/env-production/itop-config-mgmt/data.sample.osversion.xml
+2016-02-16 17:47:38 - Info - loading of data.sample.osversion.xml done.
+2016-02-16 17:47:38 - Info - Loading file: /vagrant/env-production/itop-config-mgmt/data.sample.networkdevicetype.xml
+2016-02-16 17:47:38 - Info - loading of data.sample.networkdevicetype.xml done.
+2016-02-16 17:47:38 - Info - Loading file: /vagrant/env-production/itop-config-mgmt/data.sample.contacttype.xml
+2016-02-16 17:47:38 - Info - loading of data.sample.contacttype.xml done.
+2016-02-16 17:47:38 - Info - Loading file: /vagrant/env-production/itop-config-mgmt/data.sample.locations.xml
+2016-02-16 17:47:38 - Info - loading of data.sample.locations.xml done.
+2016-02-16 17:47:38 - Info - Loading file: /vagrant/env-production/itop-config-mgmt/data.sample.persons.xml
+2016-02-16 17:47:38 - Info - loading of data.sample.persons.xml done.
+2016-02-16 17:47:38 - Info - Loading file: /vagrant/env-production/itop-config-mgmt/data.sample.teams.xml
+2016-02-16 17:47:38 - Info - loading of data.sample.teams.xml done.
+2016-02-16 17:47:38 - Info - Loading file: /vagrant/env-production/itop-config-mgmt/data.sample.contactteam.xml
+2016-02-16 17:47:38 - Info - loading of data.sample.contactteam.xml done.
+2016-02-16 17:47:38 - Info - Loading file: /vagrant/env-production/itop-config-mgmt/data.sample.servers.xml
+2016-02-16 17:47:39 - Info - loading of data.sample.servers.xml done.
+2016-02-16 17:47:39 - Info - Loading file: /vagrant/env-production/itop-config-mgmt/data.sample.nw-devices.xml
+2016-02-16 17:47:39 - Info - loading of data.sample.nw-devices.xml done.
+2016-02-16 17:47:39 - Info - Loading file: /vagrant/env-production/itop-config-mgmt/data.sample.software.xml
+2016-02-16 17:47:39 - Info - loading of data.sample.software.xml done.
+2016-02-16 17:47:39 - Info - Loading file: /vagrant/env-production/itop-config-mgmt/data.sample.dbserver.xml
+2016-02-16 17:47:39 - Info - loading of data.sample.dbserver.xml done.
+2016-02-16 17:47:39 - Info - Loading file: /vagrant/env-production/itop-config-mgmt/data.sample.dbschema.xml
+2016-02-16 17:47:39 - Info - loading of data.sample.dbschema.xml done.
+2016-02-16 17:47:39 - Info - Loading file: /vagrant/env-production/itop-config-mgmt/data.sample.webserver.xml
+2016-02-16 17:47:39 - Info - loading of data.sample.webserver.xml done.
+2016-02-16 17:47:39 - Info - Loading file: /vagrant/env-production/itop-config-mgmt/data.sample.webapp.xml
+2016-02-16 17:47:39 - Info - loading of data.sample.webapp.xml done.
+2016-02-16 17:47:39 - Info - Loading file: /vagrant/env-production/itop-config-mgmt/data.sample.applications.xml
+2016-02-16 17:47:39 - Info - loading of data.sample.applications.xml done.
+2016-02-16 17:47:39 - Info - Loading file: /vagrant/env-production/itop-config-mgmt/data.sample.applicationsolutionci.xml
+2016-02-16 17:47:39 - Info - loading of data.sample.applicationsolutionci.xml done.
+2016-02-16 17:47:39 - Info - Loading file: /vagrant/env-production/itop-datacenter-mgmt/data.sample.racks.xml
+2016-02-16 17:47:39 - Info - loading of data.sample.racks.xml done.
+2016-02-16 17:47:39 - Info - Loading file: /vagrant/env-production/itop-virtualization-mgmt/data.sample.farm.xml
+2016-02-16 17:47:39 - Info - loading of data.sample.farm.xml done.
+2016-02-16 17:47:39 - Info - Loading file: /vagrant/env-production/itop-virtualization-mgmt/data.sample.hypervisor.xml
+2016-02-16 17:47:39 - Info - loading of data.sample.hypervisor.xml done.
+2016-02-16 17:47:39 - Info - Loading file: /vagrant/env-production/itop-virtualization-mgmt/data.sample.vm.xml
+2016-02-16 17:47:40 - Info - loading of data.sample.vm.xml done.
+2016-02-16 17:47:40 - Info - Loading file: /vagrant/env-production/itop-virtualization-mgmt/data.sample.dbserver.xml
+2016-02-16 17:47:40 - Info - loading of data.sample.dbserver.xml done.
+2016-02-16 17:47:40 - Info - Loading file: /vagrant/env-production/itop-virtualization-mgmt/data.sample.dbschema.xml
+2016-02-16 17:47:40 - Info - loading of data.sample.dbschema.xml done.
+2016-02-16 17:47:40 - Info - Loading file: /vagrant/env-production/itop-virtualization-mgmt/data.sample.webserver.xml
+2016-02-16 17:47:40 - Info - loading of data.sample.webserver.xml done.
+2016-02-16 17:47:40 - Info - Loading file: /vagrant/env-production/itop-virtualization-mgmt/data.sample.webapp.xml
+2016-02-16 17:47:40 - Info - loading of data.sample.webapp.xml done.
+2016-02-16 17:47:40 - Info - Loading file: /vagrant/env-production/itop-virtualization-mgmt/data.sample.applicationsolutionci.xml
+2016-02-16 17:47:40 - Info - loading of data.sample.applicationsolutionci.xml done.
+2016-02-16 17:47:40 - Info - Loading file: /vagrant/env-production/itop-service-mgmt-provider/data.sample.organizations.xml
+2016-02-16 17:47:40 - Info - loading of data.sample.organizations.xml done.
+2016-02-16 17:47:40 - Info - Loading file: /vagrant/env-production/itop-service-mgmt-provider/data.sample.contracts.xml
+2016-02-16 17:47:40 - Info - loading of data.sample.contracts.xml done.
+2016-02-16 17:47:40 - Info - Loading file: /vagrant/env-production/itop-service-mgmt-provider/data.sample.services.xml
+2016-02-16 17:47:40 - Info - loading of data.sample.services.xml done.
+2016-02-16 17:47:40 - Info - Loading file: /vagrant/env-production/itop-service-mgmt-provider/data.sample.serviceelements.xml
+2016-02-16 17:47:40 - Info - loading of data.sample.serviceelements.xml done.
+2016-02-16 17:47:40 - Info - Loading file: /vagrant/env-production/itop-service-mgmt-provider/data.sample.sla.xml
+2016-02-16 17:47:40 - Info - loading of data.sample.sla.xml done.
+2016-02-16 17:47:40 - Info - Loading file: /vagrant/env-production/itop-service-mgmt-provider/data.sample.slt.xml
+2016-02-16 17:47:40 - Info - loading of data.sample.slt.xml done.
+2016-02-16 17:47:40 - Info - Loading file: /vagrant/env-production/itop-service-mgmt-provider/data.sample.sltsla.xml
+2016-02-16 17:47:40 - Info - loading of data.sample.sltsla.xml done.
+2016-02-16 17:47:40 - Info - Loading file: /vagrant/env-production/itop-service-mgmt-provider/data.sample.contractservice.xml
+2016-02-16 17:47:41 - Info - loading of data.sample.contractservice.xml done.
+2016-02-16 17:47:41 - Info - Loading file: /vagrant/env-production/itop-service-mgmt-provider/data.sample.deliverymodelcontact.xml
+2016-02-16 17:47:41 - Info - loading of data.sample.deliverymodelcontact.xml done.
+2016-02-16 17:47:41 - Info - ending data load session
+2016-02-16 17:47:41 - Info - operation 'async_action', peak memory usage. 75759056
+2016-02-16 17:47:41 - Info - MetaModel::Startup (ModelOnly = 1)
+2016-02-16 17:47:42 - Info - Created configuration directory: /vagrant/conf/
+2016-02-16 17:47:42 - Info - operation 'async_action', peak memory usage. 69074408
